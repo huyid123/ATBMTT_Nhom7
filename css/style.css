@@ -7,6 +7,200 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+/*Biểu mẫu đăng nhập, đăng kí*/
+.mist {
+	opacity:0.4;
+}
+.subcrib {
+	position:fixed;
+	top:4%;
+	left:32%;
+	z-index:9999;
+	background-color:#FFF;
+	border:2px double #F00;
+}
+.fixed { position:fixed;
+width:22%;
+float:left;
+}
+.submit {
+	position:fixed;
+	top:10%;
+	left:35%;
+	right:auto;
+	bottom:auto;
+	z-index:999;
+	opacity:1;
+}
+div.bieumau {
+	border:4px double #000;
+	overflow:hidden;
+	font-family:Arial, Helvetica, sans-serif;
+	width:30%;
+	background-color:#FFF;
+	display:none;
+	opacity:0.91;
+}
+div.bieumau > h1 {
+	text-align:center;
+	color:#1ABC9C;
+	margin-top:10px;
+}
+div.bieumau > img {
+	width:20px;
+	position:absolute;
+	top:2%;
+	right:2%;
+	cursor:pointer;
+}
+div.thanmau h2 {
+	margin-bottom: 10px;
+	color:#1ABC9C;
+	margin-left:13%;
+}
+
+div.thanmau img{
+	width:30px;
+	margin-left:1%;
+
+}
+div.thanmau > input[type=submit] {
+	clear:both;
+	color:#FFF;
+	background-color:#0FF;
+	margin-left:13%;
+	margin-top:5%;
+	height:45px;
+	width:56%;
+	font-size:20px;
+	font-weight:bold;
+}
+div.thanmau > input[type=password],div.thanmau > input[type=text] {
+	width:66%;
+	height:30px;
+	float:left;
+	margin-left:13%;
+}
+div.thanmau > input[type=checkbox] { margin:0;}
+div.thanmau > p {
+	text-align:center;
+}
+input#gg {
+	margin-left:13%;
+	margin-bottom:2%;
+	background-image:url(../img/dngg.png);
+	background-size:cover;
+	width:74%;
+	height:40px;
+}
+input#fb {
+	margin-left:13%;
+	margin-bottom:5%;
+	background-image:url(../img/dnfb.png);
+	background-size:cover;
+	width:74%;
+	height:40px;
+}
+/* ĐĂNG KÝ */
+div.dangky {
+	width:36%;
+	display:none;
+	background-color:#FFF;
+	opacity:0.91;
+	border:4px double #000;
+}
+div.dangky > h1 {
+	text-align:center;
+	color:#1ABC9C;
+	margin-bottom:0;
+}
+div.dangky > img {
+	width:20px;
+	position:absolute;
+	top:2%;
+	right:2%;
+	cursor:pointer;
+}
+div.signup-sub-body > div {
+	font-size:16px;
+	margin-top:4%;
+	margin-left:10%;
+	margin-bottom:2%;
+	color:#1ABC9C;
+}
+div.signup-sub-body > input {
+	width:80%;
+	margin-left:10%;
+	height:28px;
+}
+div.password > div {
+	float:left;
+	width:45%;
+	margin-right:3.5%;
+
+}
+div.password > div > input {
+	width:90%;
+	height:28px;
+	margin-right:5%;
+}
+div.choose > div {
+	float:left;
+}
+div.birthday{
+	margin-bottom:10px;
+}
+div.sex {
+	margin-left:6%;
+}
+div.sex > div {
+	margin-bottom:10px;
+}
+div.signup-sub-body > input[type=button] {
+	margin-top:20px;
+	height:50px;
+	margin-right:10%;
+	font-size:24px;
+	cursor:pointer;
+	margin-bottom:10px;
+	font-weight:bold;
+	background:#0FF;
+	color:#FFF;
+}
+div.signup-sub-body > a {
+	color:red;
+	margin-left:10%;
+	cursor:pointer;
+}
+div.signup-sub-body > p {
+	margin-left:10%;
+}
+/* HEADER */
+
+.right { float:right}
+.left {float:left}
+
+div.user > p {
+	margin:2px 0 0 0;
+	padding-top:15px;
+	padding-left:20px;
+}
+div.user > p > a {
+	line-height:15px;
+	margin:0 0 0 20px;
+	padding:3px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#FFF;
+	border-radius: 10px;
+	text-decoration:none;
+	border:2px solid #FFF;
+	background-color:#000;
+}
+div.user > p > a:hover {
+	background-color:#FFF;
+	color:#000;
+	border:2px solid #000;
+}
 body {
   background: #fff;
   color: #666666;
@@ -191,13 +385,17 @@ h1, h2, h3, h4, h5, h6 {
   margin: 10px;
 }
 
+<<<<<<< HEAD
+#btn-sign-in {
+=======
 #hero  .btn-get-started {
+>>>>>>> e5cf020fdf211b7fda249b3e908e96ef238d05c7
   background: #03C4EB;
   border: 2px solid #03C4EB;
   color: #fff;
 }
 
-#hero .btn-get-started:hover {
+#btn-sign-in:hover {
   background: none;
   border: 2px solid #fff;
   color: #fff;
