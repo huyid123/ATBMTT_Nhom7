@@ -1,4 +1,3 @@
-
 /*!
  * jQuery JavaScript Library v3.3.1
  * https://jquery.com/
@@ -9665,7 +9664,8 @@ jQuery.ajaxTransport( "script", function( s ) {
 				script = jQuery( "<script>" ).prop( {
 					charset: s.scriptCharset,
 					src: s.url
-				} ).on(
+				} )
+.on(
 					"load error",
 					callback = function( evt ) {
 						script.remove();

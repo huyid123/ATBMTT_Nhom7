@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,6 +10,8 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
   <meta content="" name="description">
+ 
+  
 
   <!-- Facebook Opengraph integration: https://developers.facebook.com/docs/sharing/opengraph -->
   <meta property="og:title" content="">
@@ -36,49 +39,12 @@
   <!-- Libraries CSS Files -->
   <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
   <link href="lib/animate-css/animate.min.css" rel="stylesheet">
-  <script src="java/jquery-3.3.1.js"></script>
-  <script>
-  $(document).ready(function(){
-	$("#btn-sign-in").click( function (){
-		$(".about-container").addClass("mist");
-		$(".container").addClass("mist");
-		$(".footer").addClass("mist");
-		$(".bieumau").show(500).addClass("submit");
-		$(".bieumau").removeClass("mist");
-	});
-	$("#close").click(function() {
-		$(".bieumau").hide().removeClass("submit");
-		$(".body").removeClass("mist");
-		$(".header").removeClass("mist");
 
-	
-	});
-	$("#close2").click(function() {
-		$(".dangky").hide().removeClass("submit");
-		$(".body").removeClass("mist");
-		$(".header").removeClass("mist");
-	
-	
-	});
-	$("#sub-now").click(function() {
-		{
-			$(".bieumau").fadeOut();
-			$(".dangky").fadeIn().addClass("submit");
-		}
-	});
-	$("#signin").click(function() {
-		{
-			$(".dangky").fadeOut();
-			$(".bieumau").fadeIn().addClass("subcrib");
-		}
-	})
-})
-  </script>
 
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
 
- <div class="bieumau">       	
+ <div id="bieumau" class="bieumau">       	
             <h1>SIGN IN</h1>
             <img id="close" src="img/icon_close.png"/>
             <div class="thanmau">
@@ -217,12 +183,17 @@
                 <p class="submit?">Đã có tài khoản? <a href="#" id="signin">Đăng nhập</a></p>
             </div>
         </div>
-  
+  <!-- =======================================================
+    Theme Name: Imperial
+    Theme URL: https://bootstrapmade.com/imperial-free-onepage-bootstrap-theme/
+    Author: BootstrapMade.com
+    Author URL: https://bootstrapmade.com
+  ======================================================= -->
 </head>
 
 <body>
   <div id="preloader"></div>
-
+ 
   <!--==========================
   Hero Section
   ============================-->
@@ -236,13 +207,8 @@
         <h1>Chào mừng đên với Imperial</h1>
         <h3><span class="rotating">Bất động sản, Chứng khoán, Tỉ giá vàng</span></h3>
         <div class="actions">
-<<<<<<< HEAD
-          <a href="#" id="btn-sign-in">Sign in</a>
-          <a href="#services" class="btn-services">Our Services</a>
-=======
-          <a href="#about" class="btn-get-started">Đăng Nhập</a>
+          <a href="#bieumau" class="btn-get-started">Đăng Nhập</a>
           <a href="#services" class="btn-services">Các Tiện Ích</a>
->>>>>>> e5cf020fdf211b7fda249b3e908e96ef238d05c7
         </div>
       </div>
     </div>
@@ -320,7 +286,7 @@
             Theo đánh giá của Alexa mới đây, CafeF đã lọt vào danh sách 20 websites lớn nhất tại Việt Nam.
           </p>
           <p class="about-text">
-            Với sự tăng trưởng mạnh mẽ trong thời gian vừa qua, CafeF.vn đã vươn lên vị trí 20 trong bảng xếp hạng các websites lớn nhất tại Việt Nam.
+            Với sự tăng trưởng mạnh mẽ trong thời gian vừa qua, Imperial đã vươn lên vị trí 20 trong bảng xếp hạng các websites lớn nhất tại Việt Nam.
           </p>
           <p class="about-text">
             Imperial có hơn 200.000 tài khoản đăng ký sử dụng công cụ theo dõi danh mục đầu tư trực tuyến mạnh mẽ và tiện dụng. Gần đây, sau khi áp dụng hệ thống tài khoản MingID, số người dùng đăng ký mới tài khoản tăng thêm hơn 20%. 
@@ -337,11 +303,7 @@
     <div class="container wow fadeInUp">
       <div class="row">
         <div class="col-md-12">
-<<<<<<< HEAD
-          <h3 class="section-title">lợi ích đầu tư</h3>
-=======
           <h3 class="section-title">Các tiện ích</h3>
->>>>>>> e5cf020fdf211b7fda249b3e908e96ef238d05c7
           <div class="section-title-divider"></div>
           <p class="section-description"></p>
         </div>
@@ -355,15 +317,6 @@
         </div>
         <div class="col-md-4 service-item">
           <div class="service-icon"><i class="fa fa-bar-chart"></i></div>
-<<<<<<< HEAD
-          <h4 class="service-title"><a href="">Biểu đồ</a></h4>
-          <p class="service-description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
-        </div>
-        <div class="col-md-4 service-item">
-          <div class="service-icon"><i class="fa fa-paper-plane"></i></div>
-          <h4 class="service-title"><a href="">Giao dịch nhanh</a></h4>
-          <p class="service-description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
-=======
           <h4 class="service-title"><a href="">Biểu đồ</a></h4>
           <p class="service-description">Biểu diễn các số liệu để nhận ra sự khác biệt và cụ thể tỷ lệ của từng cái so với tổng thể.</p>
         </div>
@@ -371,7 +324,6 @@
           <div class="service-icon"><i class="fa fa-paper-plane"></i></div>
           <h4 class="service-title"><a href="">Giao dịch nhanh</a></h4>
           <p class="service-description">Ngay lập tức thông tin được gửi đến một cách bảo mật an toàn và nhanh chóng tới đối tác. </p>
->>>>>>> e5cf020fdf211b7fda249b3e908e96ef238d05c7
         </div>
         <!-- <div class="col-md-4 service-item">
           <div class="service-icon"><i class="fa fa-photo"></i></div>
@@ -416,11 +368,7 @@
     <div class="container wow fadeInUp">
       <div class="row">
         <div class="col-md-12">
-<<<<<<< HEAD
-          <h3 class="section-title">Bất động sản</h3>
-=======
           <h3 class="section-title">Tin Tức</h3>
->>>>>>> e5cf020fdf211b7fda249b3e908e96ef238d05c7
           <div class="section-title-divider"></div>
           <p class="section-description"></p>
         </div>
@@ -428,7 +376,7 @@
 
       <div class="row">
         <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(img/portfolio-1.jpg);" href="">
+          <a class="portfolio-item" style="background-image: url(img/bds.jpg);" href="">
             <div class="details">
               <h4>Bất Động Sản</h4>
               <span>Tin tức về nhà đất</span>
@@ -437,7 +385,7 @@
         </div>
 
         <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(img/portfolio-2.jpg);" href="">
+          <a class="portfolio-item" style="background-image: url(img/vang.jpg);" href="">
             <div class="details">
               <h4>Tỷ Giá Vàng</h4>
               <span>Giá vàng mỗi ngày</span>
@@ -446,7 +394,7 @@
         </div>
 
         <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(img/portfolio-3.jpg);" href="">
+          <a class="portfolio-item" style="background-image: url(img/chungkhoan.jpg);" href="">
             <div class="details">
               <h4>Chứng khoán</h4>
               <span>Cổ phiếu của các tập đoàn</span>
@@ -455,7 +403,7 @@
         </div>
  
         <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(img/portfolio-4.jpg);" href="">
+          <a class="portfolio-item" style="background-image: url(img/meo.jpg);" href="">
             <div class="details">
               <h4>Tin Tức Xung Quanh</h4>
               <span>Mẹo hữu ích</span>
@@ -515,18 +463,17 @@
           <p class="section-description"></p>
         </div>
       </div>
-
       <div class="row">
         <div class="col-md-3">
           <div class="profile">
             <div class="pic"><img src="img/trungtran.jpg" alt=""></div>
-            <h4>Saul Goodman</h4>
-            <span>Lawless Inc</span>
+            <h4>Trung Trần</h4>
+            <span>Nhà đầu tư trẻ tuổi có thói xl chửi tục</span>
           </div>
         </div>
         <div class="col-md-9">
           <div class="quote">
-            <b><img src="img/quote_sign_left.png" alt=""></b> Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper. <small><img src="img/quote_sign_right.png" alt=""></small>
+            <b><img src="img/quote_sign_left.png" alt=""></b>Là một richkid luôn có dư tiền để đầu tư bất động sản nên tôi cảm thấy trang này rất phù hợp với tôi vì tôi luôn luôn cần các thông tin mới nhất về bất động sản.   <small><img src="img/quote_sign_right.png" alt=""></small>
           </div>
         </div>
       </div>
@@ -534,14 +481,14 @@
       <div class="row">
         <div class="col-md-9">
           <div class="quote">
-            <b><img src="img/quote_sign_left.png" alt=""></b> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis architecto beatae. <small><img src="img/quote_sign_right.png" alt=""></small>
+            <b><img src="img/quote_sign_left.png" alt=""></b>Quản lý các chuỗi tiệm vàng trong thành phố này quả thực là một việc khó khăn, nhưng may thay nhờ trang Imperial mà tôi rút ra được rất nhiều điều mới.<small><img src="img/quote_sign_right.png" alt=""></small>
           </div>
         </div>
         <div class="col-md-3">
           <div class="profile">
             <div class="pic"><img src="img/mingle.jpg" alt=""></div>
-            <h4>Sara Wilsson</h4>
-            <span>Odeo Inc</span>
+            <h4>Ming Lê</h4>
+            <span>Đại lý bán và thu mua vàng</span>
           </div>
         </div>
       </div>
@@ -556,66 +503,53 @@
     <div class="container wow fadeInUp">
       <div class="row">
         <div class="col-md-12">
-          <h3 class="section-title">Our Team</h3>
+          <h3 class="section-title">Đội ngũ sản xuất</h3>
           <div class="section-title-divider"></div>
-          <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+          <p class="section-description"></p>
         </div>
       </div>
 
       <div class="row">
         <div class="col-md-3">
           <div class="member">
-            <div class="pic"><img src="img/team-1.jpg" alt=""></div>
-            <h4>Walter White</h4>
-            <span>Chief Executive Officer</span>
+            <div class="pic"><img src="img/quochuy.jpg" alt=""></div>
+            <h4>Nguyễn Quốc Huy</h4>
+            <span>Solo NCKH</span>
             <div class="social">
-              <a href=""><i class="fa fa-twitter"></i></a>
-              <a href=""><i class="fa fa-facebook"></i></a>
-              <a href=""><i class="fa fa-google-plus"></i></a>
-              <a href=""><i class="fa fa-linkedin"></i></a>
+              <a href="https://www.facebook.com/profile.php?id=100006800104763"><i class="fa fa-facebook"></i></a>
             </div>
           </div>
         </div>
 
         <div class="col-md-3">
           <div class="member">
-            <div class="pic"><img src="img/team-2.jpg" alt=""></div>
-            <h4>Sarah Jhinson</h4>
-            <span>Product Manager</span>
+            <div class="pic"><img src="img/minhlinh.jpg" alt=""></div>
+            <h4>Trịnh Minh Linh</h4>
+            <span>Chả ram Bình Định</span>
             <div class="social">
-              <a href=""><i class="fa fa-twitter"></i></a>
-              <a href=""><i class="fa fa-facebook"></i></a>
-              <a href=""><i class="fa fa-google-plus"></i></a>
-              <a href=""><i class="fa fa-linkedin"></i></a>
+              <a href="https://www.facebook.com/profile.php?id=100009192061939"><i class="fa fa-facebook"></i></a>
+             </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="member">
+            <div class="pic"><img src="img/Thanhtuan.jpg" alt=""></div>
+            <h4>Bùi Thanh Tuấn</h4>
+            <span>Singer</span>
+            <div class="social">
+              <a href="https://www.facebook.com/thanhtuan67"><i class="fa fa-facebook"></i></a>
             </div>
           </div>
         </div>
 
         <div class="col-md-3">
           <div class="member">
-            <div class="pic"><img src="img/team-3.jpg" alt=""></div>
-            <h4>William Anderson</h4>
-            <span>CTO</span>
+            <div class="pic"><img src="img/giahuy.png" alt=""></div>
+            <h4>Nguyễn Gia Huy</h4>
+            <span>Bánh Flan nhà làm</span>
             <div class="social">
-              <a href=""><i class="fa fa-twitter"></i></a>
-              <a href=""><i class="fa fa-facebook"></i></a>
-              <a href=""><i class="fa fa-google-plus"></i></a>
-              <a href=""><i class="fa fa-linkedin"></i></a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-3">
-          <div class="member">
-            <div class="pic"><img src="img/team-4.jpg" alt=""></div>
-            <h4>Amanda Jepson</h4>
-            <span>Accountant</span>
-            <div class="social">
-              <a href=""><i class="fa fa-twitter"></i></a>
-              <a href=""><i class="fa fa-facebook"></i></a>
-              <a href=""><i class="fa fa-google-plus"></i></a>
-              <a href=""><i class="fa fa-linkedin"></i></a>
-            </div>
+              <a href="https://www.facebook.com/giahuy.nguyen.3597"><i class="fa fa-facebook"></i></a></div>
           </div>
         </div>
 
@@ -630,9 +564,9 @@
     <div class="container wow fadeInUp">
       <div class="row">
         <div class="col-md-12">
-          <h3 class="section-title">Contact Us</h3>
+          <h3 class="section-title">Liên hệ với chúng tôi</h3>
           <div class="section-title-divider"></div>
-          <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+          <p class="section-description"></p>
         </div>
       </div>
 
@@ -714,7 +648,9 @@
 
   <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
+
   <!-- Required JavaScript Libraries -->
+  <script src="java/jquery-3.3.1.js"></script>
   <script src="lib/jquery/jquery.min.js"></script>
   <script src="lib/bootstrap/js/bootstrap.min.js"></script>
   <script src="lib/superfish/hoverIntent.js"></script>
@@ -724,8 +660,12 @@
   <script src="lib/stickyjs/sticky.js"></script>
   <script src="lib/easing/easing.js"></script>
   <script src="js/jquery.vegas.js"></script>
+  
+  
   <!-- Template Specisifc Custom Javascript File -->
   <script src="js/custom.js"></script>
+
+  
 
   <script src="contactform/contactform.js"></script>
   <script>
