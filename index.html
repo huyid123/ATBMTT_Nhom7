@@ -10,6 +10,30 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
   <meta content="" name="description">
+  <script src="java/jquery-3.3.1.js"></script>
+  <script>
+
+$(document).ready(function(){
+	$(".btn-sign-in").click( function (){
+		$(".bieumau").show(500).addClass("submit");
+	});
+	$("#close").click(function() {
+		$(".bieumau").hide().removeClass("submit");
+		$(".menu").removeClass("mist");
+	
+	});
+	$("#close2").click(function() {
+		$(".dangky").hide().removeClass("submit");
+	
+	});
+	$("#sub-now").click(function() {
+		{
+			$(".bieumau").fadeOut();
+			$(".dangky").fadeIn().addClass("subcrib");
+		}
+	})
+})
+</script>
  
   
 
