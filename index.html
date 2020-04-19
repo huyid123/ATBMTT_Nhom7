@@ -15,15 +15,25 @@
 
 $(document).ready(function(){
 	$(".btn-sign-in").click( function (){
+		$(".about-container").addClass("mist");
+		$(".container").addClass("mist");
+		$(".footer").addClass("mist");
 		$(".bieumau").show(500).addClass("submit");
 	});
 	$("#close").click(function() {
 		$(".bieumau").hide().removeClass("submit");
 		$(".menu").removeClass("mist");
+		$(".about-container").fadeOut().removeClass("mist");
+		$(".container").removeClass("mist");
+		$(".footer").removeClass("mist");
 	
 	});
 	$("#close2").click(function() {
 		$(".dangky").hide().removeClass("submit");
+		$(".menu").removeClass("mist");
+		$(".about-container").fadeOut().removeClass("mist");
+		$(".container").removeClass("mist");
+		$(".footer").removeClass("mist");
 	
 	});
 	$("#sub-now").click(function() {
@@ -492,12 +502,12 @@ $(document).ready(function(){
           <div class="profile">
             <div class="pic"><img src="img/trungtran.jpg" alt=""></div>
             <h4>Trung Trần</h4>
-            <span>Nhà đầu tư trẻ tuổi có thói xl chửi tục</span>
+            <span>Nhà đầu tư trẻ tuổi</span>
           </div>
         </div>
         <div class="col-md-9">
           <div class="quote">
-            <b><img src="img/quote_sign_left.png" alt=""></b>Là một richkid luôn có dư tiền để đầu tư bất động sản nên tôi cảm thấy trang này rất phù hợp với tôi vì tôi luôn luôn cần các thông tin mới nhất về bất động sản.   <small><img src="img/quote_sign_right.png" alt=""></small>
+            <b><img src="img/quote_sign_left.png" alt=""></b>Là một người có kinh nghiệm để đầu tư bất động sản nên tôi cảm thấy trang này rất phù hợp với tôi vì tôi luôn luôn cần các thông tin mới nhất về bất động sản.   <small><img src="img/quote_sign_right.png" alt=""></small>
           </div>
         </div>
       </div>
@@ -513,6 +523,21 @@ $(document).ready(function(){
             <div class="pic"><img src="img/mingle.jpg" alt=""></div>
             <h4>Ming Lê</h4>
             <span>Đại lý bán và thu mua vàng</span>
+          </div>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="col-md-3">
+          <div class="profile">
+            <div class="pic"><img src="img/tien.jpg" alt=""></div>
+            <h4>Tiên Nguyễn</h4>
+            <span>Cô gái từng trải</span>
+          </div>
+        </div>
+        <div class="col-md-9">
+          <div class="quote">
+            <b><img src="img/quote_sign_left.png" alt=""></b>Là một cô gái lập nghiệp năm 10 tuổi. Tôi thấy rất dễ dàng đầu tư.  <small><img src="img/quote_sign_right.png" alt=""></small>
           </div>
         </div>
       </div>
@@ -560,7 +585,7 @@ $(document).ready(function(){
           <div class="member">
             <div class="pic"><img src="img/Thanhtuan.jpg" alt=""></div>
             <h4>Bùi Thanh Tuấn</h4>
-            <span>Singer</span>
+            <span>Sanger Of the World</span>
             <div class="social">
               <a href="https://www.facebook.com/thanhtuan67"><i class="fa fa-facebook"></i></a>
             </div>
