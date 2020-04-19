@@ -110,41 +110,43 @@ jQuery(document).ready(function( $ ) {
 //click to bieumau
 
 
-  $(document).ready(function(){
-	$(".btn-get-started").click( function (){
+
+
+$(document).ready(function(){
+	$(".btn-sign-in").click( function (){
 		$(".about-container").addClass("mist");
 		$(".container").addClass("mist");
 		$(".footer").addClass("mist");
 		$(".bieumau").show(500).addClass("submit");
-		$(".bieumau").removeClass("mist");
 	});
 	$("#close").click(function() {
 		$(".bieumau").hide().removeClass("submit");
-		$(".body").removeClass("mist");
-		$(".header").removeClass("mist");
-
+		$(".menu").removeClass("mist");
+		$(".about-container").fadeOut().removeClass("mist");
+		$(".container").removeClass("mist");
+		$(".footer").removeClass("mist");
 	
 	});
 	$("#close2").click(function() {
 		$(".dangky").hide().removeClass("submit");
-		$(".body").removeClass("mist");
-		$(".header").removeClass("mist");
-	
+		$(".menu").removeClass("mist");
+		$(".about-container").fadeOut().removeClass("mist");
+		$(".container").removeClass("mist");
+		$(".footer").removeClass("mist");
 	
 	});
 	$("#sub-now").click(function() {
 		{
 			$(".bieumau").fadeOut();
-			$(".dangky").fadeIn().addClass("submit");
+			$(".dangky").fadeIn().addClass("subcrib");
 		}
 	});
-	$("#signin").click(function() {
-		{
-			$(".dangky").fadeOut();
-			$(".bieumau").fadeIn().addClass("subcrib");
-		}
-	})
+	$("#signin").click( function (){
+		$(".dangky").fadeOut();
+		$(".bieumau").fadeIn().addClass("subcrib");
+	});
 })
+
 
 //clicktogui
 $(document).ready(function(){

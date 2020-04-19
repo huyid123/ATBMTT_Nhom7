@@ -38,9 +38,10 @@ div.bieumau {
 	overflow:hidden;
 	font-family:Arial, Helvetica, sans-serif;
 	width:30%;
-	background-color:#FFF;
+	background-color:#666;
 	display:none;
 	opacity:0.91;
+	color:#FFF;
 }
 div.bieumau > h1 {
 	text-align:center;
@@ -68,7 +69,7 @@ div.thanmau img{
 div.thanmau > input[type=submit] {
 	clear:both;
 	color:#FFF;
-	background-color:#0FF;
+	background-color:#1ABC9C;
 	margin-left:13%;
 	margin-top:5%;
 	height:45px;
@@ -106,13 +107,15 @@ input#fb {
 div.dangky {
 	width:36%;
 	display:none;
-	background-color:#FFF;
+	background-color:#666;
 	opacity:0.91;
 	border:4px double #000;
+	color:#FFF;
 }
 div.dangky > h1 {
 	text-align:center;
 	color:#1ABC9C;
+	margin-top:10px;
 	margin-bottom:0;
 }
 div.dangky > img {
@@ -165,7 +168,7 @@ div.signup-sub-body > input[type=button] {
 	cursor:pointer;
 	margin-bottom:10px;
 	font-weight:bold;
-	background:#0FF;
+	background:#1ABC9C;
 	color:#FFF;
 }
 div.signup-sub-body > a {

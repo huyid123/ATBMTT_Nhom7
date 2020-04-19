@@ -10,40 +10,8 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
   <meta content="" name="description">
-  <script src="java/jquery-3.3.1.js"></script>
-  <script>
-
-$(document).ready(function(){
-	$(".btn-sign-in").click( function (){
-		$(".about-container").addClass("mist");
-		$(".container").addClass("mist");
-		$(".footer").addClass("mist");
-		$(".bieumau").show(500).addClass("submit");
-	});
-	$("#close").click(function() {
-		$(".bieumau").hide().removeClass("submit");
-		$(".menu").removeClass("mist");
-		$(".about-container").fadeOut().removeClass("mist");
-		$(".container").removeClass("mist");
-		$(".footer").removeClass("mist");
-	
-	});
-	$("#close2").click(function() {
-		$(".dangky").hide().removeClass("submit");
-		$(".menu").removeClass("mist");
-		$(".about-container").fadeOut().removeClass("mist");
-		$(".container").removeClass("mist");
-		$(".footer").removeClass("mist");
-	
-	});
-	$("#sub-now").click(function() {
-		{
-			$(".bieumau").fadeOut();
-			$(".dangky").fadeIn().addClass("subcrib");
-		}
-	})
-})
-</script>
+ 
+  
  
   
 
@@ -79,7 +47,7 @@ $(document).ready(function(){
   <link href="css/style.css" rel="stylesheet">
 
  <div id="bieumau" class="bieumau">       	
-            <h1>SIGN IN</h1>
+            <h1>ĐĂNG NHẬP</h1>
             <img id="close" src="img/icon_close.png"/>
             <div class="thanmau">
                 <h2>Username</h2>
@@ -96,7 +64,7 @@ $(document).ready(function(){
             </div>
         </div>
         <div class="dangky">
-        	<h1>SIGN UP</h1>
+        	<h1>ĐĂNG KÝ</h1>
             <img id="close2" src="img/icon_close.png"/>
             <div class="signup-sub-body">
             	<div>Tên hiển thị</div>
@@ -238,10 +206,10 @@ $(document).ready(function(){
           <img class="" src="img/logo.png" alt="Imperial">
         </div>
 
-        <h1>Chào mừng đên với Imperial</h1>
-        <h3><span class="rotating">Bất động sản, Chứng khoán, Tỉ giá vàng</span></h3>
+        <h1>Chào mừng đến với Break Time</h1>
+        <h3><span class="rotating">Bất động sản, Chứng khoán, Tỉ giá vàng, Thị trường tài chính</span></h3>
         <div class="actions">
-          <a href="#bieumau" class="btn-sign-in">SIGN IN</a>
+          <a href="#bieumau" class="btn-sign-in">Đăng Nhập</a>
           <a href="#services" class="btn-services">Các Tiện Ích</a>
         </div>
       </div>
@@ -315,15 +283,15 @@ $(document).ready(function(){
         </div>
 
         <div class="col-md-6 about-content">
-          <h2 class="about-title"> Trang tin tức Imperial</h2>
+          <h2 class="about-title"> Trang tin tức BreakTime</h2>
           <p class="about-text">
             Theo đánh giá của Alexa mới đây, CafeF đã lọt vào danh sách 20 websites lớn nhất tại Việt Nam.
           </p>
           <p class="about-text">
-            Với sự tăng trưởng mạnh mẽ trong thời gian vừa qua, Imperial đã vươn lên vị trí 20 trong bảng xếp hạng các websites lớn nhất tại Việt Nam.
+            Với sự tăng trưởng mạnh mẽ trong thời gian vừa qua, BreakTime đã vươn lên vị trí 20 trong bảng xếp hạng các websites lớn nhất tại Việt Nam.
           </p>
           <p class="about-text">
-            Imperial có hơn 200.000 tài khoản đăng ký sử dụng công cụ theo dõi danh mục đầu tư trực tuyến mạnh mẽ và tiện dụng. Gần đây, sau khi áp dụng hệ thống tài khoản MingID, số người dùng đăng ký mới tài khoản tăng thêm hơn 20%. 
+            BreakTime có hơn 200.000 tài khoản đăng ký sử dụng công cụ theo dõi danh mục đầu tư trực tuyến mạnh mẽ và tiện dụng. Gần đây, sau khi áp dụng hệ thống tài khoản MingID, số người dùng đăng ký mới tài khoản tăng thêm hơn 20%. 
           </p>
         </div>
       </div>
@@ -569,6 +537,16 @@ $(document).ready(function(){
             </div>
           </div>
         </div>
+        <div class="col-md-3">
+          <div class="member">
+            <div class="pic"><img src="img/henry.jpg" alt=""></div>
+            <h4>Phạm Minh Thuận</h4>
+            <span>Xạo xạo boyz</span>
+            <div class="social">
+              <a href="https://www.facebook.com/henry.st.lmf.16"><i class="fa fa-facebook"></i></a>
+            </div>
+          </div>
+        </div>
 
         <div class="col-md-3">
           <div class="member">
@@ -599,6 +577,37 @@ $(document).ready(function(){
             <span>Bánh Flan nhà làm</span>
             <div class="social">
               <a href="https://www.facebook.com/giahuy.nguyen.3597"><i class="fa fa-facebook"></i></a></div>
+          </div>
+        </div>
+        
+        <div class="col-md-3">
+          <div class="member">
+            <div class="pic"><img src="img/trungtran.jpg" alt=""></div>
+            <h4>Trần Thành Trung</h4>
+            <span>Photographer</span>
+            <div class="social">
+              <a href="https://www.facebook.com/giahuy.nguyen.3597"><i class="fa fa-facebook"></i></a></div>
+          </div>
+          </div>
+          
+          <div class="col-md-3">
+          <div class="member">
+            <div class="pic"><img src="" alt=""></div>
+            <h4>Nguyễn Thị Thủy Tiên</h4>
+            <span>C.E.O</span>
+            <div class="social">
+              <a href="https://www.facebook.com/profile.php?id=100004878750157"><i class="fa fa-facebook"></i></a></div>
+          </div>
+          </div>
+          
+        
+        <div class="col-md-3">
+          <div class="member">
+            <div class="pic"><img src="img/khiet.jpeg" alt=""></div>
+            <h4>Phạm Văn Khiết</h4>
+            <span>Meow Meow</span>
+            <div class="social">
+              <a href="https://www.facebook.com/khiet.pham.1910"><i class="fa fa-facebook"></i></a></div>
           </div>
         </div>
 
